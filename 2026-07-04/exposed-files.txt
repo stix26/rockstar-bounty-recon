@@ -1,0 +1,13 @@
+# Exposed File Scanning — 2026-07-04
+
+## Targets Checked
+view.rockstargames.com, bomgar.rockstargames.com, emailcontent.rockstargames.com,
+signin.rockstargames.com, support.rockstargames.com, store.rockstargames.com,
+socialclub.rockstargames.com, media.rockstargames.com, patches.rockstargames.com,
+gamedownloads.rockstargames.com, rockstargames.com, www.rockstargames.com
+
+## Paths Checked
+.env, .git/config, dump.sql, config.php, phpinfo.php, robots.txt, sitemap.xml, .well-known/security.txt
+
+## Results
+All targets returned proper 404 responses for all checked paths. No exposed files discovered.
