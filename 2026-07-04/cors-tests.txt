@@ -1,0 +1,20 @@
+# CORS Testing Results — 2026-07-04
+
+## Method
+All 113 live hosts tested with:
+- Origin: https://evil.com (arbitrary origin)
+- Origin: null
+
+## Results
+
+### view.rockstargames.com — CORS MISCONFIGURATION
+- access-control-allow-origin: <reflects any Origin>
+- access-control-allow-credentials: true
+
+All paths affected:
+- / (303 redirect → ?includeNativeClientLaunch=true)
+- /?includeNativeClientLaunch=true (404)
+- All other paths (404)
+
+### All Other Hosts
+- No CORS headers returned, or properly restricted
