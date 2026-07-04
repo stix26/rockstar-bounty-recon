@@ -1,0 +1,22 @@
+# In-Scope Targets — Rockstar Games
+
+Wildcard:
+- *.rockstargames.com (eligible for bounty, max severity: critical)
+
+Individual URL scopes (eligible for bounty):
+- support.rockstargames.com (max severity: critical)
+- www.rockstargames.com (max severity: critical)
+- prod.ros.rockstargames.com (max severity: critical)
+- store.rockstargames.com (max severity: critical)
+- socialclub.rockstargames.com (max severity: critical)
+- rockstarnorth.com (max severity: medium)
+- circolocorecords.com/ (max severity: medium)
+
+Downloadable executables:
+- Rockstar Games Launcher (max severity: critical)
+
+Excluded subdomains (no bounty):
+- bomgar.rockstargames.com
+- emailcontent.rockstargames.com
+- faspex.rockstargames.com
+- any-invalid-domains.rockstargames.com (redirects to domain-check-failed)
